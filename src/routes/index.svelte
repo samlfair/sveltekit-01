@@ -1,11 +1,11 @@
 <script context="module">
   import Client from '../../utilities/client'
-  import { Predicates } from '@prismicio/client'
+  import Prismic from '@prismicio/client'
   import linkResolver from '../../utilities/linkResolver'
   import PrismicDom from 'prismic-dom'
 
   export async function load({ fetch, page }) {
-    const response = await Client.query(Predicates.at('document.type', 'post'))
+    const response = await Client.query(Prismic.Predicates.at('document.type', 'post'))
 		const {results} = response
     return {
       props: {
