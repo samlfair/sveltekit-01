@@ -35,12 +35,18 @@
 		</h2>
 <ul>
 	<li>
-		<a href="https://sveltesociety.dev/cheatsheet/">Svelte Society's Svelte Cheatsheet</a>
+		<a href="https://sveltesociety.dev/cheatsheet/" target="_blank">Svelte Society's Svelte Cheatsheet</a>
 	</li>
 	<li>
-		<a href="https://sk-incognito.vercel.app/learn/everything">Incognito SvelteKit Docs</a>
+		<a href="https://sk-incognito.vercel.app/learn/everything" target="_blank">Incognito SvelteKit Docs</a>
 	</li>
 </ul>
+	<h2>Repo for this project</h2>
+	<p>
+		<a href="https://github.com/samlfair/sveltekit-01" target="_blank">
+			samlfair/sveltekit-01 on GitHub
+		</a>
+	</p>
 </div>
 
 <style>
